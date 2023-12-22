@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="stylesheet" href="Shoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="content">
+        <div class="headpart">
+            <div class="header">
+                <button>SIGN UP & SAVE 10%</button>
+            </div>
+            <div class="navbar">
+                <a href="#">manutd.com</a>
+                <a href="#">help</a>
+                <a href="#">my account</a>
+                <div class="dropdown">
+                    <button class="dropbtn" >Language </button>
+                  <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">French</a>
+                    <a href="#">tamil</a>
+                  </div>   
+                </div>
+            </div>
+        </div>
+
+        <div class="secondline">
+            <div class="logo">
+                <img src="logo.webp" alt="">
+                <h1>UNITED DIRECT</h1>
+                <input class="nosubmit" type="search"
+                     placeholder="search">
+            </div>
+        </div>
+
+        <div class="thirdline">
+            <div class="navbar1">
+                <a href="#">Kits</a>
+                <a href="#">Training</a>
+                <a href="#">Player</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Retro</a>
+                <a href="#">Clearence</a>
+                <a href="#">Others</a>   
+            </div>
+        </div>
+        <div id="add">
+            <a href="javascript:void(0)">NEW HOME KIT 23/24 </a>
+            <a href="javascript:void(0)">SHOP NOW</a>  
+        </div>
+        <hr style="margin-top: 1rem; height: 0.2rem;border-bottom: 1px solid #1f1209;">
+
+        <div class="products">
+            <div class="product1">
+                <img src="boot2.jpeg" alt="">
+                <h3>$60</h3>
+               
+                <p>Adidas Avryn Trainers - Black - Mens</p>
+                <p>New Arrival</p>
+            </div>
+
+            <div class="product1">
+                <img src="boot1.jpeg" alt="">
+                <h3>$60</h3>
+                <p>Adidas Avryn Trainers - Black - Mens</p>
+                <p>New Arrival</p>
+            </div>
+
+            <div class="product1">
+                <img src="boot3.jpeg" alt="">
+                <h3 >$60</h3>
+                <p>Adidas Avryn Trainers - Black - Mens</p>
+                <p>New Arrival</p>
+            </div> 
+        </div> 
+        <div class="products2">
+            <div class="product1">
+                <img src="boot4.jpeg" alt="">
+                <h3>$60</h3>
+                <p>Adidas Avryn Trainers - Black - Mens</p>
+                <p>New Arrival</p>
+            </div>
+
+            <div class="product1">
+                <img src="boot5.jpeg" alt="">
+                <h3>$60</h3>
+                <p>Adidas Avryn Trainers - Black - Mens</p>
+                <p>New Arrival</p>
+            </div>
+
+            <div class="product1">
+                <img src="boot6.jpeg" alt="">
+                <h3>$60</h3>
+                <p>Adidas Avryn Trainers - Black - Mens</p>
+                <p>New Arrival</p>
+            </div>
+
+        </div>
+
+        <hr style="margin-top: 1rem; height: 0.2rem;border-bottom: 1px solid #1f1209;">
+
+        <div class="add2">
+            <div class="button">
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="list">
+                <ul id="inlist" >
+                     <li>Customer Service</li>
+                     <li>Help</li>
+                     <li>Track Order</li>
+                     <li>Size chart</li>
+                </ul>
+                <ul id="inlist">
+                    <li>Worry Free Shopping</li>
+                    <li>Safe Shopping</li>
+                    <li>Delivery</li>
+                    <li>Returns</li>
+               </ul>
+               <ul id="inlist">
+                    <li>Information</li>
+                    <li>My Account</li>
+                    <li>About us</li>
+                    <li>Affliate Program</li>
+           </ul>
+            </div>
+
+            <div class="add3">
+                <p>Stay updated on sales, new items and more</p>
+                <button>SIGN UP AND SAVE 10%</button>
+                <p style="font-weight: 600;">Follow Us</p>
+                <div class="icons">
+                    <i class="fa fa-twitter" style="font-size:36px"></i>
+                    <i class="fa fa-youtube" style="font-size:24px"></i>
+                    <i class="fa fa-snapchat" style="font-size:36px"></i>
+                    <i class="fa fa-skype" style="font-size:36px"></i>
+                </div>
+            </div>
+        </div>
+
+
+         <!-- <div class="vugf" style="height: 100vh;">  -->
+
+        <script>
+                window.onscroll = function() {myFunction()};
+                
+                var navbar = document.getElementById("add");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+        </script> 
+
+
+   
+    </div>
+
+    
+</body>
+</html>

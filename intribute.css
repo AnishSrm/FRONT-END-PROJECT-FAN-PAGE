@@ -1,0 +1,14 @@
+.head{
+    text-align: center;
+    color: rgb(480,20, 50);
+    position: relative;
+   
+}
+
+.head h3{
+    position: absolute;
+    top: 20.5%; 
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}

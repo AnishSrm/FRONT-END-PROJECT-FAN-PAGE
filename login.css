@@ -1,0 +1,42 @@
+*{
+ 
+  font-family: 'Montserrat', sans-serif;
+}
+ .lists{
+  font-size: 25px;
+ }
+ 
+.para{
+  text-align: center;
+  max-height: min-content;
+  border: solid black 5px;
+  
+  
+ }
+.heading{
+  text-align: center;
+ 
+}
+.lists{
+  margin:15px;
+  margin-left: 145px;
+  margin-right: 145px;
+  
+}
+.email,.pwd{
+  color: white;
+  padding: 30px;
+  margin: 15px ;
+}
+.sub{
+  border-radius: 10px;
+  cursor: pointer;
+}
+.forgot{
+  text-align:right;
+}
+.inp,.inp1{
+  padding: 5px;
+  
+}
+
